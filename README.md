@@ -19,11 +19,11 @@ Mathis Delsart and Cedric Kheirallah.
 
 ## Dependencies
 
-To ensure successful execution of the app, you will need to have Oz programming language (Mozart2) and CMake installed on your system.
+To ensure successful execution of the app, you will need to have `Oz programming language (Mozart2)` and `CMake` `installed` on your machine.
 
-You can download from the official website :
-http://mozart2.org/ (Oz)
-https://cmake.org/install/ (cmake)
+You can download from the `official website`:
+- http://mozart2.org/ (`Oz language`)
+- https://cmake.org/install/ (`cmake`)
 
 ## Running the app
 
