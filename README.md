@@ -17,6 +17,13 @@ Mathis Delsart and Cedric Kheirallah.
 
 5 May 2023.
 
+## Dependencies
+
+To ensure successful execution of the app, you will need to have Oz programming language (Mozart2) and CMake installed on your system.
+
+You can download from the official website :
+http://mozart2.org/ (Oz)
+https://cmake.org/install/ (cmake)
 
 ## Running the app
 
@@ -147,4 +154,4 @@ In that is the case, you also may not be able to see the colors of the buttons.
 
 This issue might be due to the Oz programming language being inconsistent between platforms and we are sorry for the inconvenience it may cause.
 
-In any case, you can see the expected result in the `image/` folder.
+In any case, you can see the expected result in the `./image` folder.
