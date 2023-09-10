@@ -11,15 +11,22 @@ The user can also try the predictions on their own database with the help of var
 This project was completed in two weeks.
 
 
+
 ## Grade
 
 20/20 ;)
 
 ## Authors
 
-Mathis Delsart and Cedric Kheirallah.
+- **Authors:** Mathis Delsart and Cedric Kheirallah.
 
 5 May 2023.
+
+## Initial repository
+
+The original repository can be found at `https://github.com/CC4K/LINFO1104-TwitOZ.git`, where you can review the initial version of the project (from start to finish).
+I relocated this repository to be incorporated into my project for seamless management and development.
+
 
 ## Dependencies
 
