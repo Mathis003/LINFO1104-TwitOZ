@@ -39,9 +39,10 @@ You can download from the `official website`:
 ## Running the app
 
 To compile:
-
-- `make` (compiles automatically all `.oz` files, including extensions)
-
+```bash
+make
+```
+(compiles automatically all `.oz` files, including extensions)
 To clean:
 ```bash
 make clean (cleans the `/bin` folder that contains all the binary files (`.ozf` files))
