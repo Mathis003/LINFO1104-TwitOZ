@@ -11,6 +11,10 @@ The user can also try the predictions on their own database with the help of var
 This project was completed in two weeks.
 
 
+## Grade
+
+20/20 ;)
+
 ## Authors
 
 Mathis Delsart and Cedric Kheirallah.
