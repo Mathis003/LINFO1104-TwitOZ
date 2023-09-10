@@ -24,7 +24,7 @@ This project was completed in two weeks.
 
 ## Initial repository
 
-The original repository can be found at `https://github.com/CC4K/LINFO1104-TwitOZ.git`, where you can review the initial version of the project (from start to finish).
+The original repository can be found at https://github.com/CC4K/LINFO1104-TwitOZ.git, where you can review the initial version of the project (from start to finish).
 I relocated this repository to be incorporated into my project for seamless management and development.
 
 
@@ -43,16 +43,25 @@ To compile:
 - `make` (compiles automatically all `.oz` files, including extensions)
 
 To clean:
-
-- `make clean` (cleans the `/bin` folder that contains all the binary files (`.ozf` files))
-- `make clean_historic` (cleans the `/user_historic` folder that contains the history of the user)
-- `make clean_all` (cleans both)
+```bash
+make clean (cleans the `/bin` folder that contains all the binary files (`.ozf` files))
+```
+```bash
+make clean_historic (cleans the `/user_historic` folder that contains the history of the user)
+```
+```bash
+make clean_all (cleans both)
+```
 
 To run:
-- `make run [option]` (see below section `Extensions`)
+```bash
+make run [option] (see below section `Extensions`)
+```
 
 To list commands:
-- `make help` (writes all the commands and options in your terminal)
+```bash
+make help (writes all the commands and options in your terminal)
+```
 
 ### Extensions
 
@@ -70,10 +79,11 @@ Here are all the options you can use with `make run`:
     - `ext=all` [all = activate all the extensions | default: none = does nothing]
 
 ### Examples :
-```
+```bash
 make run folder="my_folder" idx_n_grams=4 ext=all
+```
+```bash
 make run folder="my_folder" corr_word=1
-...
 ```
 
 
