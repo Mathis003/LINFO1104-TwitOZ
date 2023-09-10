@@ -39,30 +39,20 @@ You can download from the `official website`:
 ## Running the app
 
 To compile:
-```bash
-make
-```
-(compiles automatically all `.oz` files, including extensions)
+
+- `make` (compiles automatically all `.oz` files, including extensions)
+
 To clean:
-```bash
-make clean (cleans the `/bin` folder that contains all the binary files (`.ozf` files))
-```
-```bash
-make clean_historic (cleans the `/user_historic` folder that contains the history of the user)
-```
-```bash
-make clean_all (cleans both)
-```
+
+- `make clean` (cleans the `/bin` folder that contains all the binary files (`.ozf` files))
+- `make clean_historic` (cleans the `/user_historic` folder that contains the history of the user)
+- `make clean_all` (cleans both)
 
 To run:
-```bash
-make run [option] (see below section `Extensions`)
-```
+- `make run [option]` (see below section `Extensions`)
 
 To list commands:
-```bash
-make help (writes all the commands and options in your terminal)
-```
+- `make help` (writes all the commands and options in your terminal)
 
 ### Extensions
 
@@ -80,11 +70,10 @@ Here are all the options you can use with `make run`:
     - `ext=all` [all = activate all the extensions | default: none = does nothing]
 
 ### Examples :
-```bash
-make run folder="my_folder" idx_n_grams=4 ext=all
 ```
-```bash
+make run folder="my_folder" idx_n_grams=4 ext=all
 make run folder="my_folder" corr_word=1
+...
 ```
 
 
